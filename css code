@@ -1,1 +1,113 @@
 This is demo 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car and Bike Gallery</title>
+  <link rel="icon" href="motologos.png" type="image/png">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Car and Bike Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="#cars">Cars</a></li>
+        <li><a href="#bikes">Bikes</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <section id="cars">
+    <h2>Cars</h2>
+    <p>Explore our amazing car collection:</p>
+
+    <figure>
+      <img src="image/download.jpg" alt="My picture" width="450" height="600">
+      <figcaption>NISSAN GTR</figcaption>
+    </figure>
+
+    <figure>
+      <img src="image/BMW M3 Sport Evolution '89.jpg" alt="BMW M3 Sport Evolution '89" width="430" height="600">
+      <figcaption>BMW M3 Sport Evolution '89</figcaption>
+    </figure>
+
+    <figure>
+      <img src="image/Mazda RX7 1979.jpg" alt="Mazda RX7 1979" width="400" height="750" loading="lazy">
+      <figcaption>Mazda RX7 1979</figcaption>
+    </figure>
+    <hr>
+  </section>
+
+  <section id="bikes">
+    <h2>Bikes</h2>
+    <p>Explore our amazing bike collection:</p>
+    <dl class="styled-list">
+    <figure>
+      <img src="image/r1.jpg" alt="YAMAHA R1" width="450" height="600" loading="lazy">
+      <figcaption>YAMAHA R1</figcaption>
+    </figure>
+
+    <figure>
+    <a href="https://www.youtube.com/watch?v=YKtINg1yXE0" target="_blank" rel="noopener noreferrer">  
+      <img src="image/ducaiii.jpg" alt="2024" width="450" height="600" loading="lazy">
+      <figcaption>Watch the Ducati Panigale V4 in action</figcaption>
+    </figure>
+    <hr>
+  </section>
+
+  <section>
+    <h2>Sportbike Specifications</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Top Speed</th>
+          <th>Engine</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ducati Panigale V2</td>
+          <td>176 mph</td>
+          <td>955 cc</td>
+          <td>$17,495</td>
+        </tr>
+        <tr>
+          <td>Kawasaki Ninja H2</td>
+          <td>209 mph</td>
+          <td>998 cc</td>
+          <td>$30,500</td>
+        </tr>
+        <tr>
+          <td>Yamaha R1</td>
+          <td>186 mph</td>
+          <td>998 cc</td>
+          <td>$17,399</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+ <hr> 
+<br>
+  <footer>
+    <address>
+      Contact us: 91+8270100000 <br>
+      Email: info@example.com <br>
+      Location: Chennai, India
+    </address>
+    <hr>
+    <p>&copy; 2024 Car and Bike Gallery. All rights reserved.</p>
+  </footer>
+  <p style="text-align: center;">
+    <a href="#" style="text-decoration: none; display: inline-block; padding: 10px; font-size: 16px;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Back to top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+  </p>
+  </body>
+</html>
